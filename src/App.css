@@ -1,0 +1,129 @@
+.App {
+  /* text-align: center; */
+  font-size: x-small;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.WhsGrid {
+  overflow: auto;
+  width: 250px;
+}
+
+
+.GridSize {
+  height: 150px;
+  overflow: auto;
+  width: 1400px;
+}
+
+th{
+  position: sticky;
+  top: 0;
+  border: black solid !important;
+}
+
+td {
+  border: grey solid !important;
+}
+
+.receiptInfo {
+  background-color: lightgray;
+  width: 1400px;
+  border: black solid;
+}
+
+.SmallGridSize {
+  height: 300px;
+  overflow: auto; 
+  width: 1080px;
+  /* background-color: lightslategray; */
+}
+
+th{
+  position: sticky;
+  top: 0;
+  border: black solid !important;
+}
+
+td {
+  border: grey solid !important;
+}
+
+.PVGridSize {
+  height: 120px;
+  overflow: auto; 
+  width: 1080px;
+  /* background-color: lightslategray; */
+}
+
+th{
+  position: sticky;
+  top: 0;
+  border: black solid !important;
+}
+
+td {
+  border: grey solid !important;
+}
+
+.purchaseInfo {
+  background-color: lightgray;
+  width: 1080px;
+  border: black solid;
+}
+
+.InvoiceGrid {
+  height: 350px;
+  overflow: auto;
+  width: 1260px;
+}
+
+th{
+  position: sticky;
+  top: 0;
+  border: black solid !important;
+}
+
+td {
+  border: grey solid !important;
+}
+
+.invoiceInfo {
+  background-color: lightgray;
+  width: 1260px;
+  border: black solid;
+}
